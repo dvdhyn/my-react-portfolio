@@ -1,3 +1,8 @@
+* {
+    background-color: #5BC0BE;
+    font-family: monospace;
+}
+
 .ant-anchor-link-title {
     font-size: 28px;
     text-align: end;
