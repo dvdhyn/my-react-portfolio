@@ -63,6 +63,7 @@ const Navigation = () => (
           { key: 'about-me', href: '#about-me', title: 'ABOUT ME' },
           { key: 'portfolio', href: '#portfolio', title: 'PORTFOLIO' },
           { key: 'contact', href: '#contact', title: 'CONTACT' },
+          { key: 'resume', href: 'src/assets/resume.pdf', title: 'RESUME', target: '_blank'}
         ]}
         />
       </Col>
