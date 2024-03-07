@@ -1,5 +1,5 @@
 * {
-    background-color: #5BC0BE;
+    background-color: #6FFFE9;
     font-family: monospace;
 }
 
@@ -13,7 +13,6 @@
     color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: stretch;
-    margin-top: 20px;
 }
