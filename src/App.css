@@ -8,3 +8,12 @@
     text-align: end;
     padding-right: 20px;
 }
+
+.projectBox {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 20px;
+}
