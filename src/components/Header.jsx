@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Anchor } from 'antd';
 import Project from './Project';
+import Contact from './Contact';
 
 const Header = () => (
   <div>
@@ -66,16 +67,16 @@ const Navigation = () => (
         />
       </Col>
       <Col span={20}>
-        <div id="about-me" style={{ minHeight: '20vh', background: '#5BC0BE', padding: '50px', fontSize: '20px' }}>
-        <img src="src/assets/images/profile.jpg" alt="David Hyun" style={{ float: 'left', marginRight: '20px', borderRadius: '50%', width: '200px', height: '200px' }} />
-        My name is David Hyun. I am a programming student exercising through a bootcamp curriculum at an accelerated pace. Over the next 6 months, I hope to gain proficiency in some of the most commonly used programming languages: HTML, CSS, and JavaScript. I am also learning how to use React, a popular JavaScript library for building user interfaces. I hope you enjoy my portfolio. Thank you for visiting!
+        <div id="about-me" style={{ minHeight: '20vh', background: '#5BC0BE', fontSize: '20px', display: 'flex', alignItems: 'center', padding: '100px' }}>
+          <img src="src/assets/images/profile.jpg" alt="David Hyun" style={{ float: 'left', marginRight: '20px', borderRadius: '50%', width: '200px', height: '200px' }} />
+          My name is David Hyun. I am a programming student exercising through a bootcamp curriculum at an accelerated pace. Over the next 6 months, I hope to gain proficiency in some of the most commonly used programming languages: HTML, CSS, and JavaScript. I am also learning how to use React, a popular JavaScript library for building user interfaces. I hope you enjoy my portfolio. Thank you for visiting!
         </div>
-        <div id="portfolio" style={{ minHeight: '80vh', background: '#3A506B', padding:'20px' }} className="projectBox">
+        <div id="portfolio" style={{ minHeight: '80vh', background: '#3A506B', padding: '20px' }} className="projectBox">
           {projects.map(project => (
             <Project key={project.id} project={project} />
           ))}
         </div>
-        <div id="contact" style={{ minHeight: '100vh', background: '#1C2541' }}></div>
+        <div id="contact" style={{ minHeight: '100vh', background: '#6FFFE9' }}><Contact /></div>
       </Col>
     </Row>
   </>
