@@ -65,7 +65,7 @@ Before running the script, install any dependencies with `npm install`.
 To invoke the application, use the command `npm run dev`.
 
 
-## Demonstration
+## Deployment
 https://dvdhyn-portfolio.netlify.app/
 ![react-portfolio-preview](https://github.com/dvdhyn/my-react-portfolio/assets/145178667/f385e70a-a32a-4e9d-a310-f6a8f704fea8)
 
